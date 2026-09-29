@@ -1,0 +1,67 @@
+2026-09-29 22:31:36 | [INFO   ] | 
+
+
+
+
+
+2026-09-29 22:31:36 | [INFO   ] | Логгер успешно сконфигурирован
+2026-09-29 22:31:36 | [INFO   ] | Приложение запущено
+2026-09-29 22:32:05 | [DEBUG  ] | Start login check for format | login=ttttt
+2026-09-29 22:32:05 | [WARNING] | Login ttttt not matched, because Non correct number format "+7xxxxxxxxxx"
+2026-09-29 22:32:05 | [WARNING] | Login ttttt not matched, because Non correct number format "8xxxxxxxxxx"
+2026-09-29 22:32:05 | [WARNING] | Login ttttt not matched, because Non correct number format "+7-xxx-xxx-xxxx"
+2026-09-29 22:32:05 | [WARNING] | Login ttttt not matched, because Non correct email format "exsample@exampl.com"
+2026-09-29 22:32:05 | [WARNING] | Login ttttt not matched, because Non correct login (Cyrillic simbols or not numbers or not "_") 
+2026-09-29 22:32:05 | [ERROR  ] | Login failed: ttttt | error: Login no pattern matched
+2026-09-29 22:35:41 | [INFO   ] | 
+
+
+
+
+
+2026-09-29 22:35:41 | [INFO   ] | Логгер успешно сконфигурирован
+2026-09-29 22:35:41 | [INFO   ] | Приложение запущено
+2026-09-29 22:38:37 | [DEBUG  ] | Start login check for format | login=privet_123
+2026-09-29 22:38:37 | [WARNING] | Login privet_123 not matched, because Non correct number format "+7xxxxxxxxxx"
+2026-09-29 22:38:37 | [WARNING] | Login privet_123 not matched, because Non correct number format "8xxxxxxxxxx"
+2026-09-29 22:38:37 | [WARNING] | Login privet_123 not matched, because Non correct number format "+7-xxx-xxx-xxxx"
+2026-09-29 22:38:37 | [WARNING] | Login privet_123 not matched, because Non correct email format "exsample@exampl.com"
+2026-09-29 22:38:37 | [INFO   ] | Login successful: privet_123
+2026-09-29 22:38:37 | [INFO   ] | Start password check | login privet_123
+2026-09-29 22:38:37 | [ERROR  ] | Login privet_123 | error: Password with Latin letter | pass=8b046d8c6288
+2026-09-29 22:39:16 | [INFO   ] | 
+
+
+
+
+
+2026-09-29 22:39:16 | [INFO   ] | Логгер успешно сконфигурирован
+2026-09-29 22:39:16 | [INFO   ] | Приложение запущено
+2026-09-29 22:40:01 | [DEBUG  ] | Start login check for format | login=privet_98765
+2026-09-29 22:40:01 | [ERROR  ] | Unhandled exception
+Traceback (most recent call last):
+  File "D:\pycharm\labs\PTPM-VKI\lab1.py", line 55, in <module>
+    if re.Match():
+       ^^^^^^^^^^
+TypeError: cannot create 're.Match' instances
+2026-09-29 22:40:16 | [INFO   ] | 
+
+
+
+
+
+2026-09-29 22:40:16 | [INFO   ] | Логгер успешно сконфигурирован
+2026-09-29 22:40:16 | [INFO   ] | Приложение запущено
+2026-09-29 22:40:58 | [DEBUG  ] | Start login check for format | login=privet123_
+2026-09-29 22:40:58 | [WARNING] | Login privet123_ not matched, because Non correct number format "+7xxxxxxxxxx"
+2026-09-29 22:40:58 | [WARNING] | Login privet123_ not matched, because Non correct number format "8xxxxxxxxxx"
+2026-09-29 22:40:58 | [WARNING] | Login privet123_ not matched, because Non correct number format "+7-xxx-xxx-xxxx"
+2026-09-29 22:40:58 | [WARNING] | Login privet123_ not matched, because Non correct email format "exsample@exampl.com"
+2026-09-29 22:40:58 | [INFO   ] | Login successful: privet123_
+2026-09-29 22:40:58 | [INFO   ] | Start password check | login privet123_
+2026-09-29 22:40:58 | [INFO   ] | Login=privet123_ | pass=dc91dab3843b | result: second passw = dc91dab3843b matched
+
+2026-09-29 22:49:45 | [WARNING] | Login login_9876 not matched, because Non correct number format "+7xxxxxxxxxx"
+2026-09-29 22:49:45 | [WARNING] | Login login_9876 not matched, because Non correct number format "8xxxxxxxxxx"
+2026-09-29 22:49:45 | [WARNING] | Login login_9876 not matched, because Non correct number format "+7-xxx-xxx-xxxx"
+2026-09-29 22:49:45 | [WARNING] | Login login_9876 not matched, because Non correct email format "exsample@exampl.com"

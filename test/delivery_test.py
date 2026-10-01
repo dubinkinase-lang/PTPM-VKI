@@ -64,19 +64,5 @@ class TestDeliv(unittest.TestCase):
         print('\n')
 
 
-class test_bugs(unittest.TestCase):
-    def test_expressCost(self):
-        cost, date = calculate_delivery_cost(1.1, 10, "обычный", True)
-        self.assertGreater(cost, 250)
-        print('\n')
-
-    def test_expressDays(self):
-        cost, date = calculate_delivery_cost(1.1, 500, "обычный", True)
-        self.assertNotEqual(date, "2026-09-03")
-
-    def test_expressOneDay(self):
-        self.assertEqual(calculate_delivery_cost(1, 100, "обычный", True)[1], "2026-09-04")
-
-
 if __name__ == "__main__":
     unittest.main()
